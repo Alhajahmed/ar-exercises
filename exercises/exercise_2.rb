@@ -16,6 +16,6 @@ puts "----------"
 @store2 = Store.find(2)
 
 # Update the first store's name
-@store1.update(name: 'New Burnaby Store Name')
+@store1.update(name: "New Burnaby Store Name")
 
 puts "Updated store name: #{@store1.name}"
